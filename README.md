@@ -24,11 +24,11 @@ Anyone can run this, no special hardware required.  Deployable on AWS, it's 30mi
 - There are bugs.  It's designed for refresh/retry.
 - Only Desktop supported.  Mobile will probably look funny.
 
-![Main View](/blob/master/images/BrewingView.png?raw=true "Main View")
-[Active Rinse](/blob/master/images/ActiveRinse.png?raw=true "Active Rinse")
-[Recipe](/blob/master/images/Recipe.png?raw=true "Recipe View")
-[Chart](/blob/master/images/Chart.png?raw=true "Chart View")
-[Import Pico Data](/blob/master/images/Import.png?raw=true "Import Pico Data")
+![Main View](/images/BrewingView.png?raw=true "Main View")
+[Active Rinse](/images/ActiveRinse.png?raw=true "Active Rinse")
+[Recipe](/images/Recipe.png?raw=true "Recipe View")
+[Chart](/images/Chart.png?raw=true "Chart View")
+[Import Pico Data](/images/Import.png?raw=true "Import Pico Data")
 
 # Deploying AWS
 
@@ -36,7 +36,7 @@ Instructions here: [Planbeer](https://github.com/duffyco/planbeer)
 
 | Order | File | Purpose |
 | --- | --- | --- |
-| 1 | [1-VPC] (https://github.com/widdix/aws-cf-templates/blob/master/vpc/vpc-2azs.yaml) | Networking - Based on the Widdix Cluster |
+| 1 | vpc-2azs.yaml (https://github.com/widdix/aws-cf-templates/vpc/vpc-2azs.yaml) | Networking - Based on the Widdix Cluster |
 | 2 | 2-aws-planbeer-storage.yaml | Storage Layer - Planbeer (3) can be removed without losing data |
 | 3 | 3-aws-planbeer-cluster.yaml | Planbeer App - The App, DB, UI Layer |
 
