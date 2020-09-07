@@ -52,4 +52,5 @@ docker run -p 80:80 planbeer:latest
 
 ## Thanks
 Design is Heavily Borrowed from Sonarr.  https://sonarr.tv/
+
 Based off Widdix AWS scripts - amazing work.  https://github.com/widdix/aws-cf-templates
