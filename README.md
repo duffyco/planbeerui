@@ -25,9 +25,13 @@ Anyone can run this, no special hardware required.  Deployable on AWS, it's 30mi
 - Only Desktop supported.  Mobile will probably look funny.
 
 ![Main View](/images/BrewingView.png?raw=true "Main View")
+
 [Active Rinse](/images/ActiveRinse.png?raw=true "Active Rinse")
+
 [Recipe](/images/Recipe.png?raw=true "Recipe View")
+
 [Chart](/images/Chart.png?raw=true "Chart View")
+
 [Import Pico Data](/images/Import.png?raw=true "Import Pico Data")
 
 # Deploying AWS
