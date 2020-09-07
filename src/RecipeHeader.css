@@ -1,0 +1,46 @@
+.recipe-logo {
+    text-align: center;
+}
+
+.recipe-header {
+    padding-top: 3%;
+}
+
+.recipe-header-title {
+    padding-top: 2%;
+    font-size: 2.0em
+}
+
+
+.recipe-header-desc {
+    padding-top: 2%;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+
+.recipe-header-beerdata {
+    font-size: 1.2em;
+}
+
+.recipe-beerspecs {
+    border: 3px solid black;
+    border-radius: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.headerbtn {
+    background-color: white;
+    font-size: 1.25em;
+    margin-bottom: 2.5%;
+    margin-right: 1%;
+}
+
+.pad-btn {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.recipe-header {
+    padding-top: 2.5%;
+}

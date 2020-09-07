@@ -1,0 +1,26 @@
+.savebtn {
+    width: 25% !important;
+    text-align:right;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+
+}
+
+.trashbtn {
+    width: 25% !important;
+    margin-left: 12.5%;
+    text-align:left;
+}
+
+.settings-dropdown {
+    border: 0px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+.icon {
+    margin: 0 !important;
+    padding: 0 !important;
+    right: 50% !important;
+    padding-top: 3% !important;
+}

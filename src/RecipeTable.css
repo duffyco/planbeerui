@@ -1,0 +1,66 @@
+.table-flex-first-r {
+    display: flex; 
+    flex-direction: row;
+}
+
+.table-flex-r {
+    display: flex; 
+    border-top: 1px dotted darkgrey; 
+    flex-flow: column nowrap; 
+    width: 100%;
+}
+
+.recipe-table {
+    border-radius: 0px;
+    margin-top: 3%;
+    padding: 1%;
+    background-color: white;
+}
+
+.recipe-header {
+  background-color: white;
+  border-radius: 0px;
+  }
+  
+  .content-table {
+    text-align: left;
+  }
+  
+  .recipe-item {
+    min-height: 20px;
+  }
+  
+  .item-r {
+    min-height: 20px
+  }
+  
+  .value {
+    padding-left: 10px;
+    flex-grow: 1;
+  }
+  
+  .rowentry {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%;
+  }
+  
+  .fg1 {
+    flex-grow: 1;
+  }
+  
+  .label {
+    display: none;
+    border-top: 1px dotted darkgrey; 
+    border-bottom: 1px dotted darkgrey; 
+    text-align: center;
+  }
+
+  .rightalign {
+    text-align: right;
+  }
+
+  .field-title {
+    font-weight: bold;
+    font-size: 16px;
+  }

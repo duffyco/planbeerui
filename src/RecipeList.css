@@ -1,0 +1,45 @@
+h2 {
+  margin-top: 1%;
+}
+
+.rb-title {
+  padding: 1%;
+  font-size: 1.5em;
+  text-align: left; 
+}
+
+.rb-button {
+  padding-top: 1%;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+}
+
+
+/*
+.rb-item {
+  margin-left: 10%;
+  margin-right: 8%;
+}
+*/
+
+.fill {
+  background-color: black;
+  color: white;
+}
+
+.blank:before {
+  content: " ";
+}
+
+.rb-button button {
+  color: black;
+  background-color: white;
+}
+
+.headernav {
+  background-color: white;
+}
