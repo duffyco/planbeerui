@@ -24,19 +24,13 @@ Anyone can run this, no special hardware required.  Deployable on AWS, it's 30mi
 - There are bugs.  It's designed for refresh/retry.
 - Only Desktop supported.  Mobile will probably look funny.
 
-![Main View](/images/BrewingView.png?raw=true "Main View")
-![Active Rinse](/images/ActiveRinse.png?raw=true "Active Rinse")
-![Recipe](/images/Recipe.png?raw=true "Recipe View")
-![Chart](/images/Chart.png?raw=true "Chart View")
-![Import Pico Data](/images/Import.png?raw=true "Import Pico Data")
-
-## Thanks
-Design is Heavily Borrowed from Sonarr.  https://sonarr.tv/
-
+![Main View](/tree/master/images/BrewingView.png?raw=true "Main View")
+[Active Rinse](/tree/master/images/ActiveRinse.png?raw=true "Active Rinse")
+[Recipe](/tree/master/images/Recipe.png?raw=true "Recipe View")
+[Chart](/tree/master/images/Chart.png?raw=true "Chart View")
+[Import Pico Data](/tree/master/images/Import.png?raw=true "Import Pico Data")
 
 # Deploying AWS
-
-Based off Widdix AWS scripts - amazing work.  https://github.com/widdix/aws-cf-templates
 
 Instructions on Main Page
 
@@ -54,3 +48,7 @@ Order | File | Purpose
 
 ### Run Container
 docker run -p 80:80 planbeer:latest
+
+## Thanks
+Design is Heavily Borrowed from Sonarr.  https://sonarr.tv/
+Based off Widdix AWS scripts - amazing work.  https://github.com/widdix/aws-cf-templates
